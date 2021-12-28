@@ -1,0 +1,31 @@
+body{background: #eee url(../img/webb.png);}
+html,body{
+	position: relative;
+	height: 100%;
+}
+
+.login-container{
+	position: relative;
+	width: 320px;
+	margin: 80px auto;
+	padding: 20px 40px 40px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+#output{
+	position: absolute;
+	width: 300px;
+	top: -75px;
+	left: 0;
+	color: #fff;
+}
+
+#output.alert-success{
+	background: rgb(25, 204, 25);
+}
+
+#output.alert-danger{
+	background: rgb(228, 105, 105);
+}
